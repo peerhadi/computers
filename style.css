@@ -1,25 +1,5 @@
-.container{
-opacity:0.8;
-border-radius: 50px;
-border:30px solid darkgreen;
-max-width:450px;   
-max-height:450px;
-background-color:powderblue;
-padding:120px;
-color: red;
-text-align:center; 
-font-style:italic;	
-font-weight:bolder;
+#submit{
+    margin-left:50px;
+    max-height: 30px;
 }
-h1{
-    text-align: center;
-    color: red;
-}
-div{
-    margin-left: 770px;
-    text-align: center;
-    max-width: 300px;
-    border: 10px solid yellow;
-    border-radius: 10px;
-    background-color:green;
-}
+
