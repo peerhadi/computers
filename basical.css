@@ -1,0 +1,13 @@
+div{
+margin-top: 10px;
+}
+.container{
+    height: 90px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+html, body{
+    background-color: turquoise;
+}

@@ -1,0 +1,49 @@
+
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+    </head>
+        <body>
+            <div class="page">
+                <div>
+                        <span>
+                    <label>name</label>
+                        </span>
+                        <input type="text" id="email">
+                
+                    </div>
+                <div>
+                    <span>
+                        <label>password</label>
+                    </span>    
+                    <input type="password" id="password"/>
+                </div>
+                    <div>
+                        <br>
+                        <div>
+                            <button id='create' class="button-panel" onclick="">create</button>
+                        </div>
+                        <p id="emptystring"></p>
+                    </div>
+                        </div>
+            <script>
+                function checkIsitless_or_Equal_Letters(){
+                    var less_or_Equal_Letters =  document.getElementById("password").value.length;
+                    if(less_or_Equal_Letters < 8){
+                        document.getElementById("emptystring").innerHTML="you need to atleast enter 8 letters";
+                    }else{
+                        document.getElementById("emptystring").innerHTML="please click this button on the bottom";
+                    }
+                }
+
+            document.getElementById("create").onclick = function () {
+                var less_or_Equal_Letters =  document.getElementById("password").value.length;
+                if(less_or_Equal_Letters >= 8){
+                    location.href = "home.html";
+                }else{
+                    document.getElementById("emptystring").innerHTML="you need to atleast enter 8 letters";
+                }
+            }
+        </script>
+        </body>
+</html>
