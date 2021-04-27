@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link href="style2.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>sign up</h1>
+        <div class="container">
+            <label>name</label>
+            </div>
+            <div class="container">
+            <input type="text" id="name">
+        </div>
+        <div class="container" >
+            <label>password</label>
+        </div>
+        <div class="container">
+            <input type="password" id="password">
+            </div>
+            <div class="container">
+            <button class="button-panel" onclick="myFunction() ">submit</button>
+        </div>
+        <p id="demo"></p>
+        <script>
+            function myFunction(){
+                var name = document.getElementById("name").value.length;
+                var sign_in_or_not = document.getElementById("password").value.length;
+                if(sign_in_or_not > 8 && name > 8){
+                    location.href = "home.html?signup";
+                }else{
+                    document.getElementById("demo").innerHTML = "you need to enter atleast 8 letters";
+                }
+        }
+        </script>
+    </body>
+</html>

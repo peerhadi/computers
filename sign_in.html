@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <div class='form'>
+    <label>name</label>
+    <input type="text" maxlength="50" id="textField">
+    <label>password</label>
+    <input type="password" maxlength="50" id="password">
+    <button class="button-panel" id="button" onclick="myfunction()">submit</button>
+    <div id="demo"></div>
+    <script>
+        function myfunction() {
+            document.getElementById("button").onclick =
+                function less() {
+                    var x = document.getElementById("textField").value.length && document.getElementById("password").value.length;
+                    if (x < 8) {
+                        document.getElementById("demo").innerHTML = "You need to atleaset enter 8 letters in all feilds.";
+                    }else{
+                        location.href="home.html";
+                    }
+                }
+        }
+    </script>
+    </div>
+</body>
+
+</html>

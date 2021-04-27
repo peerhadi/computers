@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: #3e3ee3;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    background-color: #3e3e3e;
+}
+input{
+    margin-left: 22rem;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #DCDCDCDC;
+    border: 1px solid #DCDCDCDC;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+}
+label{
+    display: block;
+    text-align: center;
+    color: #3ee;
+    padding: 5px;
+    font-size: large;
+    font-variant: small-caps;
+    font-style: italic;
+}
+.button_panel{
+    background-color: #32B76B;
+    border: 1px solid #32B76B;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 26rem;
+}

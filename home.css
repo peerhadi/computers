@@ -1,0 +1,19 @@
+img{
+    margin-left: 52rem;
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    color: #0ff;
+    display: block;
+}
+.text{
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
